@@ -13,7 +13,7 @@ Traditional Shiny apps rely on servers like Posit Connect to process interaction
 Shinylive leverages WebAssembly to convert your R code into browser-compatible files (HTML, CSS, JavaScript), stored in a `docs` folder. When a user visits your app’s URL, their browser downloads these files and runs the app locally. GitHub Pages serves the static files, while the browser handles all interactivity, like updating plots or tables, without server communication. This serverless setup simplifies deployment but limits apps to the computational power of the user’s device.
 
 ## What You Need
-- A GitHub account ([sign up](https://docs.github.com/en/get-started/signing-up-for-github) if you don’t have one).
+- A GitHub account ([sign up]) (https://docs.github.com/en/get-started/signing-up-for-github) if you don’t have one).
 - R and RStudio installed.
 - Two R packages: `shinylive` and `httpuv`. Install them in your R console:
   
